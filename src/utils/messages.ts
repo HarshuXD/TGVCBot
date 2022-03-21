@@ -23,7 +23,7 @@ export const sendPlayingMessage = async (chat: Chat, data: QueueData) => {
       caption: text,
       parse_mode: 'HTML'
     });
-    console.log(`[TGVCBot][${chat.name}] Playing - ${data.title}`);
+    console.log(`[StarterVCBot][${chat.name}] Playing - ${data.title}`);
   } catch (err) {
     await bot.api.sendMessage(chat.id, text, { parse_mode: 'HTML' });
     await log(escape(String(err)));
