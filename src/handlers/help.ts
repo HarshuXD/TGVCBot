@@ -12,7 +12,8 @@ const help =
   `/next or /skip : Skip the current song\n` +
   `/stopvc : Stop the stream\n` +
   `/leave : Leave VC (works if stream is finished but VC user not left)\n` +
-  `/help : Show this Menu`;
+  `/help : Show this Menu\n\n` +
+  `© @StarterBotz`;
 
 composer.command('help', (ctx) => ctx.reply(help, { parse_mode: 'HTML' }));
 
