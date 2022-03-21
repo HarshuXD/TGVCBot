@@ -20,7 +20,7 @@ const env = cleanEnv(process.env, {
   THUMBNAIL: str({
     default: 'https://telegra.ph/file/6b07279fd80ef2b844ed0.png'
   }),
-  WATERMARK: str({ default: 'TGVCBot' })
+  WATERMARK: str({ default: 'StarterVCBot' })
 });
 
 export default env;
